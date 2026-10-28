@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menyu — Dasturxon</title>
+  <meta name="description" content="Dasturxon restoranining menyusi: osh, lag'mon, manti, somsa, shashlik va boshqa taomlar.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Dasturxon</a>
+      <button class="nav-toggle" aria-label="Menyuni ochish" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="main-nav">
+        <a href="index.html">Bosh sahifa</a>
+        <a href="menu.html">Menyu</a>
+        <a href="contact.html">Aloqa</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Bizning menyu</h1>
+        <p>An'anaviy o'zbek taomlari — har biri o'z ta'mi bilan</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Hammasi</button>
+        <button class="filter-btn" data-filter="asosiy">Asosiy taomlar</button>
+        <button class="filter-btn" data-filter="sorva">Sho'rvalar</button>
+        <button class="filter-btn" data-filter="gazak">Gazaklar</button>
+        <button class="filter-btn" data-filter="salat">Salatlar</button>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="dish" data-category="asosiy">
+          <div class="dish-icon">🍛</div>
+          <div class="dish-body">
+            <h3>Toshkent oshi</h3>
+            <p>Mol go'shti, sabzi, guruch va nohat, qozonda damlangan.</p>
+            <span class="price">58 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="asosiy">
+          <div class="dish-icon">🍜</div>
+          <div class="dish-body">
+            <h3>Lag'mon</h3>
+            <p>Qo'lda cho'zilgan xamir, go'sht va sabzavotli sho'rva.</p>
+            <span class="price">45 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="asosiy">
+          <div class="dish-icon">🥟</div>
+          <div class="dish-body">
+            <h3>Manti</h3>
+            <p>Qo'y go'shti va piyozli, bug'da pishirilgan (4 dona).</p>
+            <span class="price">42 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="gazak">
+          <div class="dish-icon">🥠</div>
+          <div class="dish-body">
+            <h3>Tandir somsa</h3>
+            <p>Tandirda pishgan, go'shtli, qatlamali somsa.</p>
+            <span class="price">14 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="asosiy">
+          <div class="dish-icon">🍢</div>
+          <div class="dish-body">
+            <h3>Shashlik</h3>
+            <p>Ko'mirda pishirilgan qo'y go'shti, piyoz bilan.</p>
+            <span class="price">20 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="asosiy">
+          <div class="dish-icon">🍖</div>
+          <div class="dish-body">
+            <h3>Qozon kabob</h3>
+            <p>Qovurilgan go'sht va kartoshka, qozonda tayyorlangan.</p>
+            <span class="price">65 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="asosiy">
+          <div class="dish-icon">🥘</div>
+          <div class="dish-body">
+            <h3>Dimlama</h3>
+            <p>Go'sht va mavsumiy sabzavotlar, o'z sharbatida dimlangan.</p>
+            <span class="price">55 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="sorva">
+          <div class="dish-icon">🍲</div>
+          <div class="dish-body">
+            <h3>Mastava</h3>
+            <p>Guruchli, go'shtli va sabzavotli quyuq sho'rva.</p>
+            <span class="price">32 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="sorva">
+          <div class="dish-icon">🥣</div>
+          <div class="dish-body">
+            <h3>Sho'rva</h3>
+            <p>Qo'y go'shti, kartoshka va sabzi bilan boy sho'rva.</p>
+            <span class="price">35 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="sorva">
+          <div class="dish-icon">🥟</div>
+          <div class="dish-body">
+            <h3>Chuchvara</h3>
+            <p>Mayda go'shtli chuchvara, issiq sho'rvada, ko'katlar bilan.</p>
+            <span class="price">38 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="gazak">
+          <div class="dish-icon">🍝</div>
+          <div class="dish-body">
+            <h3>Norin</h3>
+            <p>Yupqa xamir va ot go'shtidan tayyorlangan sovuq taom.</p>
+            <span class="price">48 000 so'm</span>
+          </div>
+        </article>
+
+        <article class="dish" data-category="salat">
+          <div class="dish-icon">🥗</div>
+          <div class="dish-body">
+            <h3>Achichuk salat</h3>
+            <p>Pomidor, piyoz va achchiq qalampir, yengil va ishtahali.</p>
+            <span class="price">15 000 so'm</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Dasturxon restorani. Barcha huquqlar himoyalangan.</p>
+      <p>Tel: +998 90 123 45 67</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
